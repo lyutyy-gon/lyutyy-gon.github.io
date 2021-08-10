@@ -97,3 +97,22 @@ main {
 .lh-tight {
   line-height: 1.25
 }
+
+/* Custom */
+nav.p-3 {
+  padding: 0 !important
+}
+
+.main__menu {
+  background-color: #2C343E;
+  width: 230px
+}
+
+.main__menu--logo {
+  background-color: #3C434D
+}
+
+.main__menu li,
+.main__menu a {
+  font-family: 'Open Sans'; font-size: 12px; line-height: 16px; font-weight: 600; color: #989BA0
+}
