@@ -249,3 +249,34 @@ nav.p-3 {
 	width: 20px;
 	height: 23px;
 }
+
+.main__check .main__check-input {
+	border: 1px solid #E5E5E5;
+	background-color: transparent;
+	border-radius: 0;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.main__check .main__check-input:checked {
+	background: #999999;
+	border-color: #999999;
+}
+.main__check .main__check-input:checked::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url(../img/true.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 9px;
+	height: 7px;
+}
+
+.main__check .main__check-input:focus {
+	box-shadow: none;
+}
