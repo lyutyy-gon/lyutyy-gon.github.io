@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -7,7 +7,7 @@
 	<title>Start</title>
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-	<link rel="stylesheet" href="../css/style.css?ver=0.6" />
+	<link rel="stylesheet" href="../css/style.css" />
 </head>
 
 <body>
@@ -377,8 +377,34 @@
 </main> -->
 
 <div class="second">
+	<div class="mosaic">
+	</div>
+	<br>
 	<div class="dropdown main__dropdown">
-		<button class="btn dropdown-toggle main__dropdown-btn d-flex align-items-center" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+		<div class="main__dropdown-gear d-flex align-items-center">
+			<button class="btn dropdown-toggle main__dropdown-gear-btn d-flex align-items-center main--dropdown-btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+				Список кабинетов
+			</button>
+			<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+				<li><a class="dropdown-item" href="#">Кабинет: 1</a></li>
+				<li><a class="dropdown-item" href="#">Кабинет: 2</a></li>
+				<li><a class="dropdown-item" href="#">Кабинет: 3</a></li>
+			</ul>
+			<div class="main__dropdown-gear-img">
+				<img src="../img/gear.png" alt="">
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="upgrade d-flex align-items-center">
+		<div class="upgrade__title">Обновлено 11 мин. назад</div>
+		<button type="button" class="btn upgrade__btn d-flex align-items-center">
+			<img src="../img/upgrade.png" alt="">
+		</button>
+	</div>
+	<br>
+	<div class="dropdown main__dropdown">
+		<button class="btn dropdown-toggle main__dropdown-btn d-flex align-items-center main--dropdown-btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
 			Весь срок действия: 12 ноября 20
 		</button>
 		<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -387,6 +413,13 @@
 			<li><a class="dropdown-item" href="#">Весь срок действия: 3</a></li>
 		</ul>
 	</div>
+	<br>
+	<div class="form-check main__check">
+		<input class="form-check-input main__check-input" type="checkbox" value="" id="flexCheckDefault">
+	</div>
+	<br>
+	<button type="button" class="btn main__btn">Создать объявление</button>
+	<button type="button" class="btn main__btn main__btn--noactive">Создать объявление</button>
 </div>
 
 <style>
